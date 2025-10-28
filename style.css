@@ -88,5 +88,111 @@ ul {
 .second {
     /* display: flex; */
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 400px;
 }
 
+.header-two {
+    font-weight: 700;
+    font-size: 32px;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 700px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+}
+
+/* level three */
+
+.third {
+    height: 400px;
+    background-color: gainsboro;
+    color: navy;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.quote {
+    justify-content: start;
+    font-size: 32px;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.author {
+    font-weight: 700;
+    font-size: 24px;
+    justify-content: end;
+}
+
+
+/* level four */
+
+.fourth {
+    height: 700px;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.blue-container {
+    box-sizing: border-box;
+    display: flex;
+    height: 200px;
+    width: 700px;
+    background-color: lightblue;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    /* padding: 50px; */
+    border-radius: 10px;
+}
+
+.text-fourth {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.sign-up {
+    background-color: lightblue;
+    color: white;
+    border: 2px white;
+    border-radius: 10%;
+}
+
+
+/* footer */
+
+.footer {
+    display: flex;
+    color: white;
+    font-weight: 400;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    background-color: blue;
+    height: 72px;
+}
