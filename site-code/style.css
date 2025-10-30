@@ -1,21 +1,21 @@
 body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
     margin: 0;
 }
 
-body div {
-    padding: 0 40px;
+.header, .first, .second, .third, .fourth, .footer {
     display: flex;
+    padding: 0 40px;
 }
 
 
 /* header */
 .header {
-    height: 72px;
-    background: blue;
+    height: 48px;
+    background: #1F2937;
     color: white;
     /* display: flex; */
     align-items: center;
@@ -44,8 +44,9 @@ ul {
 /* Level 1 */
 .first {
     /* display: flex; */
-    height: 400px;
-    background: blue;
+    /* height: 400px; */
+    padding: 80px 40px;
+    background: #1F2937;
     justify-content: space-between;
     align-items: center;
     /* padding: 0 40px; */
@@ -56,7 +57,7 @@ ul {
     flex-direction: column;
     justify-content: start;
     color: white;
-    width: 350px;
+    max-width: 520px;
 }
 
 .left div {
@@ -82,6 +83,17 @@ ul {
     padding: 8px 16px;
 }
 
+.right img {
+    width: 520px;
+    height: 220px;
+    background:#9aa1aa;
+    color:#eee;
+    display:flex; 
+    align-items:center; 
+    justify-content:center;
+    border-radius:4px;
+}
+
 
 /* level 2 */
 
@@ -90,7 +102,8 @@ ul {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    height: 400px;
+    /* height: 400px; */
+    padding: 60px 40px;
 }
 
 .header-two {
@@ -106,19 +119,23 @@ ul {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    width: 700px;
+    /* width: 700px; */
+    gap: 4px;
 }
 
 .card {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     width: 200px;
+    margin: 4px;
 }
 
 .card img {
     height: 200px;
     width: 200px;
+    border: 2px solid blue;
 }
 
 /* level three */
@@ -137,12 +154,14 @@ ul {
     font-size: 32px;
     font-weight: 400;
     font-style: italic;
+    align-self: start;
 }
 
 .author {
     font-weight: 700;
     font-size: 24px;
     justify-content: end;
+    align-self: end;
 }
 
 
@@ -193,6 +212,6 @@ ul {
     font-size: 16px;
     align-items: center;
     justify-content: center;
-    background-color: blue;
+    background-color: #1F2937;
     height: 72px;
 }
